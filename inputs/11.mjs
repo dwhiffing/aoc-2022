@@ -1,0 +1,58 @@
+export const input = [
+  {
+    items: [59, 74, 65, 86],
+    mutate: (old) => old * 19,
+    divisor: 7,
+    count: 0,
+    dest: [6, 2],
+  },
+  {
+    items: [62, 84, 72, 91, 68, 78, 51],
+    mutate: (old) => old + 1,
+    divisor: 2,
+    count: 0,
+    dest: [2, 0],
+  },
+  {
+    items: [78, 84, 96],
+    mutate: (old) => old + 8,
+    divisor: 19,
+    count: 0,
+    dest: [6, 5],
+  },
+  {
+    items: [97, 86],
+    mutate: (old) => old * old,
+    divisor: 3,
+    count: 0,
+    dest: [1, 0],
+  },
+  {
+    items: [50],
+    mutate: (old) => old + 6,
+    divisor: 13,
+    count: 0,
+    dest: [3, 1],
+  },
+  {
+    items: [73, 65, 69, 65, 51],
+    mutate: (old) => old * 17,
+    divisor: 11,
+    count: 0,
+    dest: [4, 7],
+  },
+  {
+    items: [69, 82, 97, 93, 82, 84, 58, 63],
+    mutate: (old) => old + 5,
+    divisor: 5,
+    count: 0,
+    dest: [5, 7],
+  },
+  {
+    items: [81, 78, 82, 76, 79, 80],
+    mutate: (old) => old + 3,
+    divisor: 17,
+    count: 0,
+    dest: [3, 4],
+  },
+]
